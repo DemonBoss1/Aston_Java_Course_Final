@@ -23,16 +23,6 @@
         <dependency>
             <groupId>net.datafaker</groupId>
             <artifactId>datafaker</artifactId>
-            <version>2.3.0</version>
-        </dependency>
-    </dependencies>
-
-
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/net.datafaker/datafaker -->
-        <dependency>
-            <groupId>net.datafaker</groupId>
-            <artifactId>datafaker</artifactId>
             <version>2.5.1</version>
         </dependency>
     </dependencies>

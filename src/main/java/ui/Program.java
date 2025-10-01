@@ -9,6 +9,7 @@ import domain.interfaces.SearchStrategy;
 import domain.interfaces.SortStrategy;
 import domain.search.BinarySearchStrategy;
 import domain.sort.BubbleSortStrategy;
+import domain.sort.MergeSortStrategy;
 import domain.sort.QuickSortStrategy;
 
 import java.util.Comparator;
@@ -308,7 +309,7 @@ public class Program {
             case "2":
                 return new QuickSortStrategy();
             case "3":
-                //return new MergeSortStrategy();
+                return new MergeSortStrategy();
             default:
                 System.out.println("Неверный выбор.");
                 return null;

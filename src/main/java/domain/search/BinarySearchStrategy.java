@@ -1,11 +1,11 @@
-package examples.domain.search;
+package domain.search;
 
-import examples.data.repository.ArrayListToSortByStrategy;
-import examples.domain.interfaces.SearchStrategy;
-import java.util.ArrayList;
+import data.repository.ArrayListToSortByStrategy;
+import domain.interfaces.SearchStrategy;
+
 import java.util.Comparator;
 
-public class BinarySearch<T> implements SearchStrategy<T> {
+public class BinarySearchStrategy<T> implements SearchStrategy<T> {
 
     @Override
     public boolean search(ArrayListToSortByStrategy<T> list, T object, Comparator<? super T> comparator) {

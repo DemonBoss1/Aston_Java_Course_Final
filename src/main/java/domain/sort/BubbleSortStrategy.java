@@ -1,12 +1,12 @@
-package examples.domain.sort;
+package domain.sort;
 
 
-import examples.data.repository.ArrayListToSortByStrategy;
-import examples.domain.interfaces.SortStrategy;
+import data.repository.ArrayListToSortByStrategy;
+import domain.interfaces.SortStrategy;
 
 import java.util.Comparator;
 
-class BubbleSortStrategy<T> implements SortStrategy<T> {
+public class BubbleSortStrategy<T> implements SortStrategy<T> {
     public ArrayListToSortByStrategy<T> sort(ArrayListToSortByStrategy<T> array, Comparator<T> comparator) {
         boolean needIteration = true;
         while (needIteration) {
